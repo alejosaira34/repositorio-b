@@ -1,14 +1,30 @@
-# repositorios
-1)_ descargaer el "curl","emqx" y configurar el emqx.
-  curl -s https://assets.emqx.com/scripts/install-emqx-deb.sh | sudo bash
-   60  curl -s https://assets.emqx.com/scripts/install-emqx-deb.sh | sudo bash
-   61  install curl
-   62  apt-get install curl
-   63  sudo apt-get install emqx
-   64   apt-get install emqx
-   65  apt-get update
-   66  apt get-screen
-   67  apt get install screen
-   68  apt-get install screen
-   69  screen
-   70  hystori
+# GTAV
+
+##  Instalar 
+ 
+ 
+Descargaer el "curl","emqx" y configurar el emqx.
+curl -s https://assets.emqx.com/scripts/install-emqx-deb.sh | sudo bash
+
+apt-get install curl
+curl -s https://assets.emqx.com/scripts/install-emqx-deb.sh | sudo bash
+apt-get install emqx
+apt-get install screen
+ 
+
+## Redis Setup  - Autenticacion
+ 
+HMSET users:alejo password_hash 123
+HMSET users:leo password_hash 123
+
+
+## Redis Setup  - Autorizacion
+ 
+HMSET auth:alejo XXXXX XXXX
+HMSET auth:leo XXXXX XXXX
+
+## TODOS
+
+- Guardar Mesanjes
+- Guardar Archivos
+- Crear/Borrar/Actualizar usuarios 
